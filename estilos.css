@@ -13,6 +13,7 @@ body {
     flex-flow: column nowrap;
     max-width: 1200px;
     margin: auto;
+    min-width: fit-content;
 }
 
 .header {
@@ -69,11 +70,13 @@ h1 {
     flex: 2 1 auto;
     display: flex;
     flex-flow: row wrap;
+    flex-basis: content;
 }
 
 .article {
     background: #1f6cb0;
     flex: 1 1 40%;
+    
 }
 
 .navegacion {
@@ -88,7 +91,7 @@ h1 {
 
 .publicidad {
     background: #ffea85;
-    /*display: flex;*/
+    display: flex;
 }
 
 .footer {
